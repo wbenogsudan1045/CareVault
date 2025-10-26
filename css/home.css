@@ -1,0 +1,62 @@
+
+body {
+    background-color: #f9fbfc;
+}
+
+.hero {
+    padding: 40px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-dashboard {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+.card-dashboard img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.fwlight {
+    font-weight: 300;
+}
+
+/* Recent Activity Table */
+.activity-log-container {
+    margin-top: 60px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.activity-log-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table thead th {
+    background-color: #f1f5f9;
+    color: #555;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody td {
+    padding: 12px 15px;
+    color: #333;
+}
+

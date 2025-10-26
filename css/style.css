@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+form{
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 25vh;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+@media screen and (max-width: 991px) {
+    table thead {
+        display: none;
+    }
+
+    table, 
+    table tbody, 
+    table tr, 
+    table td {
+        display: block;
+        width: 100%;
+    }
+
+    table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        background-color: #f8f9fa;
+    }
+
+    table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0.75rem;
+        top: 0.5rem;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .btn {
+        margin: 5px 0;
+    }
+}
